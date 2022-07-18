@@ -3,7 +3,6 @@
 Circulo::Circulo()
     :QPoint(10,10)
 {
-    QPointF
 
 }
 

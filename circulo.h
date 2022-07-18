@@ -3,7 +3,10 @@
 
 #include <QPoint>
 
-class Circulo : public QPoint
+//Declaramos las clases publicas
+
+class Circulo :
+        public QPoint
 {
 public:
     Circulo();

@@ -48,4 +48,3 @@ int Configuracion::dimension() const
 {
     return m_dimension;
 }
-

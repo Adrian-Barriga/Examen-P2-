@@ -6,11 +6,10 @@ Juego::Juego(QWidget *parent)
     , ui(new Ui::Juego)
 {
     ui->setupUi(this);
-    //QPoint centro = ui->marco->geometry().center();
+    QPoint centro = ui->marco->geometry().center();
     m_circulo = new Circulo();
-    //m_circulo->setX(centro.x());
-    //m_circulo->setY(centro.y());
-    //mImagen = new QImage(this->size(),QImage::Format_ARGB32_Premultiplied);*/
+    m_circulo->setX(centro.x());
+    m_circulo->setY(centro.y());
 }
 
 Juego::~Juego()
@@ -18,9 +17,9 @@ Juego::~Juego()
     delete ui;
 }
 
+
 void Juego::on_btnArriba_released()
 {
-
 
 }
 
@@ -57,10 +56,4 @@ void Juego::on_actionConfigraci0n_triggered()
 void Juego::on_actionSalir_triggered()
 {
     this->close();
-}
-
-
-void Juego::on_actionAplicacion_triggered()
-{
-
 }
