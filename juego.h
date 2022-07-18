@@ -31,6 +31,8 @@ private slots:
 
     void on_actionSalir_triggered();
 
+    void on_actionAplicacion_triggered();
+
 private:
     Ui::Juego *ui;
     Circulo *m_circulo;

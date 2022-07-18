@@ -1,3 +1,6 @@
+// Nombre: Adrian Fernando Barriga Castillo
+// Número de cédula: 1724361900
+
 #include "juego.h"
 
 #include <QApplication>

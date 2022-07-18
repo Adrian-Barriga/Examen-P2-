@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/new/prefix1"/>
+    <qresource prefix="/">
+        <file>Recursos/boton-circular.png</file>
+        <file>Recursos/engranaje.png</file>
+        <file>Recursos/salida.png</file>
+        <file>Recursos/abrir-documento.png</file>
+    </qresource>
+</RCC>
